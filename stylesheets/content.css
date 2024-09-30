@@ -1,0 +1,199 @@
+body {
+  width: 100vw;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  background: #e8e7e5;
+  overflow-x: hidden;
+}
+
+.rectangle1 {
+  width: -130vw;
+  height: 15vw;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.rectangle2 {
+  width: 100vw;
+  height: 15vw;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.rectangle3 {
+  width: 100vw;
+  height: 15vw;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.rectangle4 {
+  width: 100vw;
+  height: 15vw;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.rectangle5 {
+  width: 100vw;
+  height: 15vw;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.name1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 440px;
+  margin-top: -58vw;
+  margin-left: 14vw;
+  position: relative;
+  z-index: 0;
+  /* position: absolute; */
+}
+
+.block1 {
+  width: 100vw;
+  margin-top: 21vw;
+  background-color: black;
+  overflow: hidden;
+  position: relative;
+}
+
+.soberi {
+  font-size: 52px;
+  font-family: 'Inter', sans-serif;
+  color: #a3b7bc;
+  white-space: nowrap;
+  animation: lin1 1.5s linear infinite;
+  padding-bottom: 8px;
+}
+
+@keyframes lin1 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-901px);
+  }
+}
+
+.rectangle6 {
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+
+.shadow1 {
+  margin-top: -65vw;
+  margin-left: 40vw;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.shadow2 {
+  margin-top: 5vw;
+  margin-left: 5vw;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.shadow3 {
+  margin-top: 1vw;
+  margin-left: 60vw;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.block2 {
+  width: 100vw;
+  margin-top: -1vw;
+  background-color: black;
+  overflow: hidden;
+  position: relative;
+}
+
+.vsplesk {
+  font-size: 52px;
+  font-family: 'Inter', sans-serif;
+  color: #a3b7bc;
+  white-space: nowrap;
+  animation: lin1 1.5s linear infinite;
+  padding-bottom: 8px;
+}
+
+@keyframes lin1 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-901px);
+  }
+}
+
+.sixthsection {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e8e7e5;
+  overflow: hidden;
+}
+
+.rectangle7 {
+  /* width: 30vw;
+  height: 15vw; */
+  overflow: hidden;
+  position: relative;
+  /* z-index: 1; */
+}
+
+.frame1 {
+  width: 100vw;
+  height: 50vw;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+
+.vector {
+  width: 100vw;
+  height: 70vw;
+  margin-top: 30vw;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.block4 {
+  width: 100%;
+  height: 15vh;
+  background-color: #a2b6bb;
+  overflow: hidden;
+}
+
+.name {
+  font-size: 24px;
+  font-family: 'Halvar Breitschrift', sans-serif;
+  font-weight: 400;
+  color: #e8e7e5;
+  white-space: nowrap;
+  text-align: right;
+  /* align-items: center; */
+  margin-top: 2vw;
+  margin-left: -5vw;
+  margin-right: 1vw;
+}
+
+.logo {
+  width: 15vw;
+  height: 15vh;
+  margin-top: -5vw;
+}
